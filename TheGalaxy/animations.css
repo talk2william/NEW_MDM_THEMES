@@ -1,0 +1,181 @@
+/*rockets*/
+/*stars*/
+.rocket{
+     width:5%;
+     height:5%;
+     background-image:url('img/artwork/rocket.png');
+     background-repeat:no-repeat;
+     background-position:center; 
+     background-size:contain;
+     position:fixed;
+     bottom:-50%;
+     left: 30%;
+     transform:rotate(-48deg);
+     -webkit-transform:rotate(-48deg);
+     animation:mine 4s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:mine 4s infinite;
+    -webkit-animation-timing-function:linear; 
+    z-index:-10px;
+}
+@keyframes mine
+{
+from { bottom: -50%;}
+ to {bottom:  150%;}
+}
+
+@-webkit-keyframes mine 
+{
+from { bottom: -50px;}
+ to {bottom:  150%;}
+}
+.rocket1{
+     width:5%;
+     height:5%;
+     background-image:url('img/artwork/rocket.png');
+     background-repeat:no-repeat;
+     background-position:center; 
+     background-size:contain;
+     position:fixed;
+     bottom:-150%;
+     left:60%;
+     transform:rotate(-48deg);
+     -webkit-transform:rotate(-48deg);
+     animation:mine1 3s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:mine1 3s infinite;
+    -webkit-animation-timing-function:linear; 
+    z-index:-10px;
+}
+@keyframes mine1
+{
+from { bottom: -150%;}
+ to {bottom:  150%;}
+}
+
+@-webkit-keyframes mine1 
+{
+from { bottom: -150px;}
+ to {bottom:  150%;}
+}
+.rocket2{
+     width:5%;
+     height:5%;
+     background-image:url('img/artwork/rocket.png');
+     background-repeat:no-repeat;
+     background-position:center; 
+     background-size:contain;
+     position:fixed;
+     bottom:-50%;
+     left:80%;
+     transform:rotate(-48deg);
+     -webkit-transform:rotate(-48deg);
+     animation:mine2 5s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:mine2 5s infinite;
+    -webkit-animation-timing-function:linear;
+    z-index:-10px;
+}
+@keyframes mine2
+{
+from { bottom: -50%;}
+ to {bottom:  150%;}
+}
+
+@-webkit-keyframes mine2 
+{
+from { bottom: -50px;}
+ to {bottom:  150%;}
+}
+#star {
+     font-size:20px;
+     position:fixed;
+     top:-50%;
+     left:80%;
+     color:white;
+     animation:tr 10s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:tr 10s infinite;
+    -webkit-animation-timing-function:linear;
+    z-index:-10px;
+}
+@keyframes tr
+{
+from { top: -50%;}
+ to {top:  150%;}
+}
+
+@-webkit-keyframes tr 
+{
+from { top: -50px;}
+ to {top:  150%;}
+}
+#star1 {
+     font-size:20px;
+     position:fixed;
+     top:-50%;
+     left:40%;
+     color:white;
+     animation:tr1 10s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:tr1 10s infinite;
+    -webkit-animation-timing-function:linear;
+    z-index:-10px;
+}
+@keyframes tr1
+{
+from { top: -10%;}
+ to {top:  150%;}
+}
+
+@-webkit-keyframes tr1 
+{
+from { top: -10px;}
+ to {top:  150%;}
+}
+#star2 {
+     font-size:20px;
+     position:fixed;
+     top:-50%;
+     left:60%;
+     color:white;
+     animation:tr2 11s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:tr2 11s infinite;
+    -webkit-animation-timing-function:linear;
+    z-index:-10px;
+}
+@keyframes tr2
+{
+from { top: -120%;}
+ to {top:  150%;}
+}
+
+@-webkit-keyframes tr2 
+{
+from { top: -120px;}
+ to {top:  150%;}
+}
+#star3 {
+     font-size:20px;
+     position:fixed;
+     top:-50%;
+     left:20%;
+     color:white;
+     animation:tr3 9s infinite;
+     animation-timing-function:linear;
+    -webkit-animation:tr3 9s infinite;
+    -webkit-animation-timing-function:linear;
+    z-index:-10px;
+}
+@keyframes tr3
+{
+from { top: -150%;}
+ to {top:  150%;}
+}
+
+@-webkit-keyframes tr3 
+{
+from { top: -150px;}
+ to {top:  150%;}
+}
