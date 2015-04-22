@@ -14,6 +14,6 @@ or download the zip_ and extract it.
 
  `sudo /usr/sbin/mdmsetup`
  
- you will find two new themes under html style i.e **TheGalaxy** & **TheSnow** and then select the desired one that you want to try.
+ you will find two new themes under html style i.e **TheGalaxy** & **TheSnow** and there you choose the desired one.
  
  ![alt text](/screenshots.png "MDM THEMES")
